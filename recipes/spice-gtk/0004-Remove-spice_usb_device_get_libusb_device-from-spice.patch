@@ -5,13 +5,13 @@ Subject: [PATCH 2/3] Remove spice_usb_device_get_libusb_device from
  spice-glib-sym-file.
 
 ---
- gtk/spice-glib-sym-file | 1 -
+ src/spice-glib-sym-file | 1 -
  1 file changed, 1 deletion(-)
 
-diff --git a/gtk/spice-glib-sym-file b/gtk/spice-glib-sym-file
+diff --git a/src/spice-glib-sym-file b/src/spice-glib-sym-file
 index 3a8da93..6830cb1 100644
---- a/gtk/spice-glib-sym-file
-+++ b/gtk/spice-glib-sym-file
+--- a/src/spice-glib-sym-file
++++ b/src/spice-glib-sym-file
 @@ -92,7 +92,6 @@ spice_uri_set_scheme
  spice_uri_set_user
  spice_uri_to_string
